@@ -1,9 +1,52 @@
-html, body, main {
+html, body {
 	width: 100%;
 	height: 100%;
 }
 
-section {
+main {
+	width: 100%;
+	margin-left: auto;
+	margin-right: auto;
+}
+
+/* section {
 	height: 200px;
 	background: grey;
+} */
+
+.works {
+	width: 100%;
+	display: flex;
 }
+
+#work-electron {
+	width: 33.33%
+}
+
+#work-blockchain {
+	width: 33.33%
+}
+
+#work-nodejs {
+	width: 33.33%
+}
+
+#logo-section {
+	width: 100%;
+}
+
+#logo-img {
+	width: 300px;
+}
+
+#name {
+	text-align: right;
+	display: inline-block;
+}
+
+#main-img {
+	width: 100%;
+	padding: auto;
+	margin: auto;
+}
+
