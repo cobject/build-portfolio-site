@@ -1,44 +1,49 @@
 /* style for tag */
 * {
-	border: solid #6AC500 1px;
+  /*border: solid #6ac500 1px;*/
 }
 
 html {
-	margin-top: 15px;
-	margin-bottom: 15px;
+  margin-top: 15px;
+  margin-bottom: 15px;
 }
 
 body {
-	min-width: 320px;
-	max-width: 1200px;
-	margin: 0 auto;
-	border: solid  #6AC5AC 3px;
+  min-width: 320px;
+  max-width: 1200px;
+  margin: 0 auto;
 }
 
 img {
-	width: 100%;
+  width: 100%;
 }
 
-h1, h2 {
-	margin: 0px;
+h1,
+h2 {
+  color: white;
+  margin: 0;
 }
 
-header, nav, footer, section, article, div {
-	box-sizing: border-box;
+header,
+nav,
+footer,
+section,
+article,
+div {
+  box-sizing: border-box;
 }
 
 header {
-	display: flex;
-	padding: 0px;
-	margin: 0px;
+  display: flex;
+  padding: 0;
+  margin: 0;
 }
 
 section {
-	border: solid  #6AC5AC 3px;
 }
 
 main {
-	width: 100%;
+  width: 100%;
 }
 
 footer {
@@ -46,43 +51,87 @@ footer {
 }
 
 hr {
-	border: solid grey 2px;
+  border: solid grey 2px;
+}
+
+a {
+  color: white;
+  cursor: pointer;
 }
 
 
 /*style for class*/
+.bg-dark {
+    background-color: #343a40;
+}
+
 .works {
-	display: flex;
-	display: -webkit-flex;
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: wrap;
 }
 
 .work-item {
+  width: 100%;
+  text-align: center;
+  padding: auto 5px;
+  background-color: #8b857c;
+  /*border-radius: .25rem;*/
+}
+
+.vertical-container {
+  display: flex;
+  margin: 10px auto;
+  align-items: center;
+  min-height: 200px;
 }
 
 .work-img {
-	width: 30%;
-	margin: 10px;
+  width: 30%;
+  margin: auto;
 }
 
+.sub-title {
+  background-color: #4f473e ;
+}
+.section-color {
+  background-color: #333;
+}
 
 /*style for id*/
 #logo-box {
-	width: 100px;
-	margin: auto;
+  display: none;
+  width: 100px;
+  margin: auto;
 }
 
 #name-description {
-	width: 100%;
-	margin-top: auto;
+  width: 100%;
+  margin: auto;
+  padding-right: 10px;
 }
 
 #logo-img {
 }
 
 #name {
-	text-align: right;
+  text-align: right;
 }
 
 #description {
-	text-align: right;
+  text-align: right;
+}
+
+@media screen and (min-width: 600px) {
+  #logo-box {
+    display: block;
+  }
+
+  .work-item {
+    width: 33.333%;
+  }
+
+  .work-img {
+    width: 50%;
+  }
 }

@@ -1,43 +1,53 @@
 <!DOCTYPE html>
 <html lang="en">
-	<head>
-		<meta charset="utf-8">
-		<meta name="viewport" content="width=device-width,initial-scale=1">
-		<link href="css/main.css" type="text/css" rel="stylesheet">
-		<title>Build portfolio site</title>
-	</head>
-	<body>
-		<header>
-			<div id="logo-box">
-				<img src="img/logo.png" alt="logo" id="logo-img">
-			</div>
-			<div id="name-description">
-				<h1 id="name">Suhun Kim</h1>
-				<h2 id="description">Front-end developer</h2>
-			</div>
-		</header>
-		<hr>
-		<main>
-			<img src="img/main.jpg" alt="main-img" id="main-img">
-			<h1>Featured Work</h1>
-			<div class="works">
-				<div class="work-item" id="work-1">
-					<img src="img/electron.png" alt="work-1" class="work-img">
-					<h2>Electron</h2>
-					<a href="github.com">github.com</a>
-				</div>
-				<div class="work-item" id="work-2">
-					<img src="img/electron.png" alt="work-1" class="work-img">
-					<h2>Electron</h2>
-					<a href="github.com">github.com</a>
-				</div>
-				<div class="work-item" id="work-3">
-					<img src="img/electron.png" alt="work-1" class="work-img">
-					<h2>Electron</h2>
-					<a href="github.com">github.com</a>
-				</div>
-			</div>
-		</main>
-		<footer></footer>
-	</body>
+  <head>
+    <meta charset="utf-8">
+    <meta name="viewport" content="width=device-width,initial-scale=1">
+    <link href="css/main.css" rel="stylesheet">
+    <title>Build portfolio site</title>
+  </head>
+
+  <body>
+    <header class="bg-dark">
+      <div id="logo-box">
+        <img src="img/logo.png" alt="logo" id="logo-img">
+      </div>
+      <div id="name-description">
+        <h1 id="name">Suhun Kim</h1>
+        <h2 id="description">Front-end developer</h2>
+      </div>
+    </header>
+
+    <hr>
+
+    <main>
+      <img src="img/main.jpg" alt="main-img" id="main-img">
+      <h1 class="section-color">Featured Work</h1>
+      <div class="works">
+        <div class="work-item">
+          <div class="vertical-container">
+            <img src="img/electron.png" alt="Remote UI" class="work-img">
+          </div>
+          <h2 class="sub-title">Remote UI</h2>
+          <a href="https://github.com/cobject/remote-ui">Remote UI</a>
+        </div>
+        <div class="work-item">
+          <div class="vertical-container">
+            <img src="img/nodejs.png" alt="Test network server" class="work-img">
+          </div>
+          <h2 class="sub-title">Test node network server</h2>
+          <a href="https://github.com/cobject/test-network-server">Test network server  </a>
+        </div>
+        <div class="work-item">
+          <div class="vertical-container  ">
+            <img src="img/loom.jpg" alt="loom network" class="work-img">
+          </div>
+          <h2 class="sub-title">Loom sdk documentation</h2>
+          <a href="https://github.com/cobject/loom-sdk-documentation">Loom sdk documentation</a>
+        </div>
+      </div>
+    </main>
+
+    <footer></footer>
+  </body>
 </html>
