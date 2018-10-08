@@ -91,39 +91,33 @@ a {
   margin: auto;
 }
 
-.sub-title {
+.work-title {
   background-color: #4f473e ;
 }
+
 .section-color {
   background-color: #333;
 }
 
 /*style for id*/
-#logo-box {
+.header-logo {
   display: none;
   width: 100px;
-  margin: auto;
+  margin-left: auto;
 }
 
-#name-description {
+.header-container {
   width: 100%;
   margin: auto;
   padding-right: 10px;
 }
 
-#logo-img {
-}
-
-#name {
-  text-align: right;
-}
-
-#description {
+.align-right {
   text-align: right;
 }
 
 @media screen and (min-width: 600px) {
-  #logo-box {
+  .header-logo {
     display: block;
   }
 
