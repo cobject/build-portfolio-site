@@ -1,52 +1,88 @@
-html, body {
+/* style for tag */
+* {
+	border: solid #6AC500 1px;
+}
+
+html {
+	margin-top: 15px;
+	margin-bottom: 15px;
+}
+
+body {
+	min-width: 320px;
+	max-width: 1200px;
+	margin: 0 auto;
+	border: solid  #6AC5AC 3px;
+}
+
+img {
 	width: 100%;
-	height: 100%;
+}
+
+h1, h2 {
+	margin: 0px;
+}
+
+header, nav, footer, section, article, div {
+	box-sizing: border-box;
+}
+
+header {
+	display: flex;
+	padding: 0px;
+	margin: 0px;
+}
+
+section {
+	border: solid  #6AC5AC 3px;
 }
 
 main {
 	width: 100%;
-	margin-left: auto;
-	margin-right: auto;
 }
 
-/* section {
-	height: 200px;
-	background: grey;
-} */
+footer {
 
+}
+
+hr {
+	border: solid grey 2px;
+}
+
+
+/*style for class*/
 .works {
-	width: 100%;
 	display: flex;
+	display: -webkit-flex;
 }
 
-#work-electron {
-	width: 33.33%
+.work-item {
 }
 
-#work-blockchain {
-	width: 33.33%
+.work-img {
+	width: 30%;
+	margin: 10px;
 }
 
-#work-nodejs {
-	width: 33.33%
+
+/*style for id*/
+#logo-box {
+	width: 100px;
+	margin: auto;
 }
 
-#logo-section {
+#name-description {
 	width: 100%;
+	margin-top: auto;
 }
 
 #logo-img {
-	width: 300px;
 }
 
 #name {
 	text-align: right;
-	display: inline-block;
 }
 
-#main-img {
-	width: 100%;
-	padding: auto;
-	margin: auto;
+#description {
+	text-align: right;
 }
-
