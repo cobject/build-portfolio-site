@@ -10,7 +10,7 @@
   <body>
     <header class="bg-dark">
       <div class="header-logo">
-        <img src="img/logo.png" alt="logo">
+        <img src="img/logo.png" alt="logo" class="section-title">
       </div>
       <div class="header-container">
         <h1 class="header-name align-right">Suhun Kim</h1>
@@ -18,32 +18,53 @@
       </div>
     </header>
 
-    <hr>
+    <hr class="seperator">
 
     <main>
-      <img src="img/main.jpg" alt="Main image" id="main-img">
-      <h1 class="section-color">Featured Work</h1>
-      <div class="works">
-        <div class="work-item">
-          <div class="vertical-container">
-            <img src="img/electron.png" alt="Remote UI" class="work-img">
+      <img src="img/main.jpg" alt="Main image" class="main-img">
+      <h1 class="section-title">Featured Work</h1>
+
+      <hr class="seperator">
+
+      <div class="deck">
+        <div class="card-container">
+          <div class="card">
+            <div class="card-header vertical-container">
+              <img src="img/electron.png" alt="Remote UI" class="card-img">
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Remote UI</h2>
+              <div class="card-url-container">
+                <a href="https://github.com/cobject/remote-ui" class="card-url">Remote UI</a>
+              </div>
+            </div>
           </div>
-          <h2 class="work-title">Remote UI</h2>
-          <a href="https://github.com/cobject/remote-ui">Remote UI</a>
         </div>
-        <div class="work-item">
-          <div class="vertical-container">
-            <img src="img/nodejs.png" alt="Test network server" class="work-img">
+        <div class="card-container">
+          <div class="card">
+            <div class="card-header vertical-container">
+              <img src="img/nodejs.png" alt="Remote UI" class="card-img">
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Test network server</h2>
+              <div class="card-url-container">
+                <a href="https://github.com/cobject/test-network-server" class="card-url">Test network server</a>
+              </div>
+            </div>
           </div>
-          <h2 class="work-title">Test network server</h2>
-          <a href="https://github.com/cobject/test-network-server">Test network server  </a>
         </div>
-        <div class="work-item">
-          <div class="vertical-container">
-            <img src="img/loom.jpg" alt="loom network" class="work-img">
+        <div class="card-container">
+          <div class="card">
+            <div class="card-header vertical-container">
+              <img src="img/loom.jpg" alt="Loom network" class="card-img">
+            </div>
+            <div class="card-body">
+              <h2 class="card-title">Loom sdk documentation</h2>
+              <div class="card-url-container">
+                <a href="https://github.com/cobject/loom-sdk-documentation" class="card-url">Loom sdk documentation</a>
+              </div>
+            </div>
           </div>
-          <h2 class="work-title">Loom sdk documentation</h2>
-          <a href="https://github.com/cobject/loom-sdk-documentation">Loom sdk documentation</a>
         </div>
       </div>
     </main>

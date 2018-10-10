@@ -10,8 +10,10 @@ html {
 
 body {
   min-width: 320px;
-  max-width: 1200px;
+  max-width: 1000px;
   margin: 0 auto;
+  font-family: Roboto;
+  font-size: 12px;
 }
 
 img {
@@ -20,8 +22,8 @@ img {
 
 h1,
 h2 {
-  color: white;
-  margin: 0;
+  /*color: white;*/
+  /*margin: 0;*/
 }
 
 header,
@@ -50,53 +52,93 @@ footer {
 
 }
 
-hr {
-  border: solid grey 2px;
-}
-
-a {
+a:link,
+a:visited {
   color: white;
   cursor: pointer;
+  min-width: 48px;
+  min-height: 48px;
+  text-align: center;
+  text-decoration: none;
 }
-
 
 /*style for class*/
 .bg-dark {
-    background-color: #343a40;
+    /*background-color: #343a40;*/
 }
 
-.works {
-  display: flex;
-  display: -webkit-flex;
-  flex-flow: wrap;
-}
-
-.work-item {
+.main-img {
   width: 100%;
-  text-align: center;
-  padding: auto 5px;
-  background-color: #8b857c;
-  /*border-radius: .25rem;*/
+  padding: 0 20px;
+  box-sizing: border-box;
+}
+
+.seperator {
+  border: solid border-left 2px;
+  margin-bottom: 20px
+}
+
+.section-title {
+  padding-left: 10px;
 }
 
 .vertical-container {
   display: flex;
-  margin: 10px auto;
+  margin: 0 auto;
   align-items: center;
-  min-height: 200px;
+  min-height: 100px;
+  padding: 5px;
 }
 
-.work-img {
+.deck {
+  display: flex;
+  display: -webkit-flex;
+  flex-flow: wrap;
+  margin: 0px;
+}
+
+.card-container {
+  margin: 0px;
+  padding-left: 20px;
+  padding-right: 20px;
+  width: 100%;
+}
+
+.card {
+  text-align: center;
+  margin-bottom: 1.5rem;
+  border: 1px solid rgba(0,0,0,.125);
+  border-radius: 0.25rem;
+  box-shadow: 0 0.125rem 0.25rem rgba(0,0,0,.075);
+}
+
+.card-header {
+  background-color: #2d3c49;
+  padding: auto 10px;
+}
+
+.card-img {
   width: 30%;
   margin: auto;
 }
 
-.work-title {
-  background-color: #4f473e ;
+.card-body {
+  margin: 0;
 }
 
-.section-color {
-  background-color: #333;
+.card-title {
+  width: 100%;
+  margin: 0;
+  padding: 10px 0;
+}
+
+.card-url-container {
+  width: 100%;
+  background-color: #4f473e;
+  padding: 10px 0 ;
+}
+
+.card-url {
 }
 
 /*style for id*/
@@ -121,11 +163,15 @@ a {
     display: block;
   }
 
-  .work-item {
+  .card-container {
     width: 33.333%;
   }
 
-  .work-img {
+  .vertical-container {
+    min-height: 150px;
+  }
+
+  .card-img {
     width: 50%;
   }
 }
