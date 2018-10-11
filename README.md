@@ -1,22 +1,14 @@
 # Build portfolio site
 
-This is a project building portfolio site for the [front-end developer nanodegree program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001) in [udacity](https://udacity.com).
+This is a project building a portfolio site for the [front-end developer nanodegree program](https://www.udacity.com/course/front-end-web-developer-nanodegree--nd001) assignment in [udacity](https://udacity.com).
 
-# Objectives to the project
+# Objectives
 
 1. Complete the project
 
 2. Make a site only using `CSS`, `HTML` without libraries (i.e. `Bootstrap` or `Foundation`)
 
 3. Learn responsive layout
-
-# Lessons learned
-
-1. Need my own layout process making site from the mockup.
-
-2. Think smaller first, larger last.
-
-3. Layout first, style last.
 
 # Checklist
 
@@ -33,12 +25,12 @@ This is a project building portfolio site for the [front-end developer nanodegre
 
 - [x] HTML5 semantic tags such as `<header>`, `<footer>`, `<article>`, `<section>` etc. are used to add meaning to the code.
 - [x] No `<div>` or `<section>` tags are without a CSS class or id
-  
+
 ### Custom Design
 
-- [ ] Customize images and text
-- [ ] Customize placement of the elements on the page (grid layout) with `HTML`, `CSS` or both.
-- [ ] Customize CSS styles applied at minimum to paragraph and heading elements.
+- [x] Customize images and text
+- [x] Customize placement of the elements on the page (grid layout) with `HTML`, `CSS` or both.
+- [x] Customize CSS styles applied at minimum to paragraph and heading elements.
 
 ### Grid-Based Layout
 
@@ -96,3 +88,11 @@ This is a project building portfolio site for the [front-end developer nanodegre
 
 - [x] [HTML Validation](https://validator.w3.org/)
 - [x] [CSS Validation](https://jigsaw.w3.org/css-validator/#validate_by_input)
+
+# Lessons learned
+
+1. Need my own layout process making site from the mockup.
+
+2. Think smaller first, larger last.
+
+3. Layout first, styling last.

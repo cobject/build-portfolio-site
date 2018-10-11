@@ -1,5 +1,6 @@
 /* style for tag */
 * {
+  /* TODO: show outline for test */
   /*border: solid #6ac500 1px;*/
 }
 
@@ -12,7 +13,7 @@ body {
   min-width: 320px;
   max-width: 1000px;
   margin: 0 auto;
-  font-family: Roboto;
+  font-family: Lucida Console, Lucida Sans Typewriter, monospace;
   font-size: 12px;
 }
 
@@ -35,9 +36,6 @@ header {
   margin: 0;
 }
 
-section {
-}
-
 main {
   width: 100%;
 }
@@ -56,11 +54,12 @@ a:visited {
   text-decoration: none;
 }
 
-/*style for class*/
-.bg-dark {
-    /*background-color: #343a40;*/
+a:hover {
+  text-decoration: underline;
+  font-weight: bold;
 }
 
+/*style for class*/
 .main-img {
   width: 100%;
   padding: 0 20px;
@@ -130,9 +129,6 @@ a:visited {
   width: 100%;
   background-color: #4f473e;
   padding: 10px 0;
-}
-
-.card-url {
 }
 
 /*style for id*/
