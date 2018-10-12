@@ -30,12 +30,6 @@ div {
   box-sizing: border-box;
 }
 
-header {
-  display: flex;
-  padding: 0;
-  margin: 0;
-}
-
 main {
   width: 100%;
 }
@@ -60,6 +54,27 @@ a:hover {
 }
 
 /*style for class*/
+.header {
+  display: flex;
+  padding: 0;
+  margin: 0;
+}
+
+.header-logo {
+  width: 30%;
+  margin-left: auto;
+}
+
+.header-container {
+  width: 70%;
+  margin: auto;
+  padding-right: 10px;
+}
+
+.logo-img {
+  max-width: 100px;
+}
+
 .main-img {
   width: 100%;
   padding: 0 20px;
@@ -131,28 +146,11 @@ a:hover {
   padding: 10px 0;
 }
 
-/*style for id*/
-.header-logo {
-  display: none;
-  width: 100px;
-  margin-left: auto;
-}
-
-.header-container {
-  width: 100%;
-  margin: auto;
-  padding-right: 10px;
-}
-
 .align-right {
   text-align: right;
 }
 
 @media screen and (min-width: 600px) {
-  .header-logo {
-    display: block;
-  }
-
   .card-container {
     width: 33.333%;
   }
