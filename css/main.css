@@ -154,11 +154,9 @@ a:hover {
   .card-container {
     width: 33.333%;
   }
-
   .vertical-container {
     min-height: 150px;
   }
-
   .card-img {
     width: 50%;
   }
